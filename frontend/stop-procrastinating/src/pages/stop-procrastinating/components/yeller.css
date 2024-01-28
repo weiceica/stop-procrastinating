@@ -1,0 +1,52 @@
+.yeller-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    z-index: 1;
+    
+    margin-top: 10%;
+    left: 25%;
+    background-color:#FFF1E6;
+    width: 50%;
+    height: 25%;
+    border: 5px solid;
+    position: relative;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    row-gap: 10px;
+    border-color: #474B53;;
+}
+
+.cnt{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    font-size: 75px;
+}
+
+.yeller{
+    text-align: center;
+}
+
+.flame{
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+}
